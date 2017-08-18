@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Uyeda Lab</title>
+		<title>Research</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
@@ -25,7 +25,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 	</head>
-	<body class="homepage">
+	<body class="no-sidebar">
 
 		<!-- Header -->
 		<div id="header">
@@ -33,15 +33,15 @@
 				
 				<!-- Logo -->
 				<div id="logo">
-					<h1><a href="#">Uyeda Lab</a></h1>
+					<h1><a href="#">Research</a></h1>
 					<span></span>
 				</div>
 				
 				<!-- Nav -->
 				<nav id="nav">
 					<ul>
-						<li class="active"><a href="index.html">Homepage</a></li>
-						<li><a href="research.html">Research</a></li>
+						<li><a href="index.html">Homepage</a></li>
+						<li class="active"><a href="research.html">Research</a></li>
 						<li><a href="people.html">People</a></li>
 						<li><a href="http://scholar.google.com/citations?sortby=pubdate&hl=en&user=lo-oG3EAAAAJ&view_op=list_works" target="_blank">Publications</a></li>
 						<li><a href="software.html">Software</a></li>
@@ -61,31 +61,63 @@
 					<div id="content" class="8u skel-cell-important">
 						<section>
 							<header>
-								<h2>Evolution on trees</h2>
-								<p></p>
-								<hr>
+								<h2>Adaptive landscapes on trees</h2>
 							</header>
 						<!--	<a href="#" class="image full"><img src="images/elegans.jpg" alt="" /></a> -->
-							<p>The tree of life provides a roadmap for understanding the dynamics of evolution, as well as major events in the history of life. The central focus of the Uyeda lab is to use this map to understand how biological processes give rise to the large-scale patterns of diversity we observe. In particular, we focus on establishing a better connection between microevolutionary processes and the models we use to understand trait evolution at the macroevolutionary scale. We address this problem by a combination of methods development, theoretical work and empirical studies that seek to synthesize biological data across scales to give better inferences as to what causes long-term evolutionary change. By synthesizing data from microevolutionary, paleontological and phylogenetic comparative studies into a cohesive framework, we can gain important insights into understanding when and why adaptation succeeds or fails over long evolutionary time-scales. This is especially important today as rapid global change is driving rapid evolutionary change. We must understand how these processes scale up to macroevolutionary time-scale. </p>
-							<p>I take both a "bottom up" approach by using the tools of quantitative and population genetic theory, and a "top down" approach using phylogenetic comparative and paleontological models of evolution to achieve this synthesis. These approaches are united by framing evolution in terms of adaptive landscapes. In quantitative genetic and population genetic approaches, such landscapes are generally assumed to be static in time and across populations, while phylogenetic comparative methods describe the dynamic movement of adaptive landscapes over millenia. Providing theory and tools to make inference and predictions of the dynamics of adaptive landscapes should be a central goal of 21st century biology. </p>
+							<p> G.G. Simpson's phenotypic adaptive landscape provides a conceptual framework for understanding the dynamics of trait evolution on both micro and macroevolutionary scales. This framework has been formalized at microevolutionary scales in the empirically-validated framework of evolutionary quantitative genetics. Futhermore, hypotheses regarding the macroevolutionary adaptive landscape have been applied to patterns of trait diversification at macroevolutionary scales. We work to better understand when, why and how adaptive landscapes change at macroevolutionary scales, and why these shifts occur.   </p>
+							<a href="#" class="image left"><img src="images/OUphenogramBlack.jpg" width=100 height=300></img></a>
+							<p>We have developed an approach that uses Bayesian reversible-jump MCMC to detect shifts in the macroevolutionary adaptive landscape. The method is implemented in the software package bayou, which we are continuing to develop. Besides detecting shifts in adaptive landscapes, the Bayesian approach also enables users to use informative priors for analyzing trait evolution--providing a means to connect macroevolutionary models to biologically realistic parameter estimates. Our goal is to provide a variety of tools for understanding adaptive evolution on trees that integrate data from paleontological studies, neontological time-series, estimates of selection and genetic (co)variation, performance landscapes, and phylogenetic comparative data that can be used to better understand (multivariate) trait evolution.</p>
+							
+					</section>
+					</div>
+
+					<div id="content" class="8u skel-cell-important">
+						<section>	
+						<p></p>
+						<p></p>
+							<header>
+							  <hr>
+							  <p></p>
+								<h2>Shifting allometries</h2>
+							</header>
+						<!--	<a href="#" class="image full"><img src="images/elegans.jpg" alt="" /></a> -->
+							<a href="#" class="image left"><img src="images/slopeintfig.png" width=100 height=300></img></a><p>Recently, we have further expanded bayou to detect shifts in allometric scaling relationships. The relationship between body size and metabolism, for example, is a well-studied relationship that is central to the Metabolic Theory of Ecology. We develop an approach that can test for the universality of the slope and intercept of allometric scaling relationships without specifying a priori the location of shifts. This enables us to understand when, where and (potentially) why shifts in allometries occur. We can then use Bayesian model selection to determine if ecological or life history predictors can explain away clade-level shifts, providing insight into the potential causes of changing scaling relationships. Our goal is to understand how changes in the environment and traits of organisms have resulted in fundamental changes in the flow of energy through organisms over the course of evolutionary history. </p>
+								<img src="images/allometryanim.gif" width=500 height=300></img>
+								
+						
 						</section>
 					</div>
 					
-					<!-- Sidebar -->
-					<div id="sidebar" class="4u">
+										
+					<div id="content" class="8u skel-cell-important">
 						<section>
 							<header>
-								<h2>Join the lab!</h2>
+							  <hr>
+							  <p></p>
+								<h2>Discrete trait evolution</h2>
 							</header>
-							<ul class="style">
-								<li>
-									<p class="posted">Feb 8, 2017</p>
-									<img src="images/pic04.jpg" alt="" />
-									<p class="text"><a href="positions.html" target="_blank">Positions available for postdocs and graduate students.</a></p>
-								</li>
-							</ul>
+							
+							<a href="#" class="image left"><img src="images/cyano.png" width=100 height=300></img></a>
+						<!--	<a href="#" class="image full"><img src="images/elegans.jpg" alt="" /></a> -->
+							<p>Many phenotypic traits of interest are only available in discrete character codings, which present a challenge for comparative biologists as they contain less information than continuous traits. My lab seeks to build tools that can find common patterns of divergence and diversification between discrete characters. In a recent study, we showed concerted evidence across traits for shifts in evolutionary rates that roughly align with the timing of the Great and Neoproterozoic oxygenation events in the history of cyanobacteria. We are working to further address the challenge of detecting and understanding the consequences of shared dynamics between discrete traits, in particular by leveraging the information found in phenotypic ontologies. </p>
 						</section>
 					</div>
+					
+					<div id="content" class="8u skel-cell-important">
+						<section>
+							<header>
+							  <hr>
+							  <p></p>
+								<h2>Quantitative Genetic Models</h2>
+							</header>
+							
+							<a href="#" class="image left"><img src="images/sexualisolation.png" width=100 height=300></img></a>
+						<!--	<a href="#" class="image full"><img src="images/elegans.jpg" alt="" /></a> -->
+							<p>In addition to taking a top-down approach through phylogenetic comparative methods, Quantitative genetic theory provides a "bottom-up" approach for understanding connecting trait evolutionary models to make macroevolutionary predictions. Understanding how genetic (co)variation, selection and heterogenous adaptive landscapes lead to macroevolutionary consequences such as speciation and trait evolution are crucial questions for understanding when and why traits evolve, and when they do not.</p>
+						</section>
+					</div>
+					
+					
 				</div>
 			</div>
 		</div>
