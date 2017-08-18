@@ -49,14 +49,15 @@
 	a
 	{
 		text-decoration: underline;
-		color: #272727;
+		color: #660000;
 	}
 
 	a:hover
 	{
 		text-decoration: none;
+		color: #FF6600;
 	}
-	
+
 	sub
 	{
 		position: relative;
@@ -87,7 +88,7 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
-		font-size: 12pt;
+		font-size: 120%;
 	}
 
 	header
