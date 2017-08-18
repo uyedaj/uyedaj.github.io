@@ -50,12 +50,14 @@
 	{
 		text-decoration: underline;
 		color: #660000;
+		font-size: 120%;
 	}
 
 	a:hover
 	{
 		text-decoration: none;
 		color: #FF6600;
+		font-size: 120%;
 	}
 
 	sub
